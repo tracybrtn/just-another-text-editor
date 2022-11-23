@@ -1,7 +1,7 @@
 // Import modules
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
-import './database';
+import  './database';
 
 // Import CSS files
 import '../css/index.css';
