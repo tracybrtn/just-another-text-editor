@@ -1,8 +1,10 @@
+// Import modules
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
+
+// Import CSS files
 import '../css/index.css';
-import './install';
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
