@@ -2,14 +2,15 @@
   "name": "jate",
   "version": "1.0.0",
   "description": "Single-page text editor that meets PWA criteria.  Application features a number of data persistence techniques that serve as redundancies in case one of the options is not supported by the browser. Application also functions offline.",
-  "main": "server.js",
+  "private": true,
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" ",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "Tracy Burton Bravo",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/tracybrtn/just-another-text-editor/issues"
   },
-  "homepage": "https://github.com/tracybrtn/just-another-text-editor#readme"
+  "homepage": "https://github.com/tracybrtn/just-another-text-editor#readme",
+  "engines": {
+    "node": "17.x"
+  }
 }
