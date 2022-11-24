@@ -1,6 +1,27 @@
-# text-editor
+# just-another-text-editor
+
+[Link to depoyed application](https://dry-river-17496.herokuapp.com/)
+
+![Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)
+
+## Description
 
 Single-page text editor that meets PWA criteria.  Application features a number of data persistence techniques that serve as redundancies in case one of the options is not supported by the browser. Application also functions offline.
+
+## Table of Contents
+
+- [just-another-text-editor](#just-another-text-editor)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+    - [User Story](#user-story)
+    - [Acceptance Criteria](#acceptance-criteria)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Built with](#built-with)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 ## User Story
 
@@ -36,3 +57,48 @@ Single-page text editor that meets PWA criteria.  Application features a number 
                 THEN I should have my static assets precached upon loading along with subsequent pages and static assets
                 WHEN I deploy to Heroku
                 THEN I should have proper build scripts for a webpack application
+                
+## Installation
+
+1. Make sure you have node.js installed in your local machine.
+2. Clone this repo or download the code. Open it with vscode.
+3. Run `npm install`
+
+## Usage
+
+Link to the deployed application is: [https://dry-river-17496.herokuapp.com/](https://dry-river-17496.herokuapp.com/)
+For offline use, hit the `install` button at the top left corner of the page.
+
+## Built With
+
+- node.js
+- manifest
+- indexedDB
+- service worker
+- webpack
+- Heroku
+
+
+## License
+
+This application is licensed under MIT.
+
+## Contributing
+
+If you would like to contribute to this project reach out to me. You can find my contact information in the [Questions](#questions) section. You are also welcome to fork the repository.
+
+If you decide to fork it, then:
+
+1. Create your feature branch
+2. Commit your changes
+3. Push your branch
+4. Submit a pull request
+
+## Tests
+
+Not applicable at the moment.
+
+## Questions
+
+If you have any questions about this project, contact me at tracynburton@gmail.com.
+Don't forget to check out my other projects! Visit [my github](https://github.com/tracybrtn).
