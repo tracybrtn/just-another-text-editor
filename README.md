@@ -1,5 +1,7 @@
 # just-another-text-editor
 
+![Screenshot of application](https://github.com/tracybrtn/just-another-text-editor/blob/ab3d3efcb25a67237bd7b18acc08d912b6ce8e0b/client/src/images/deployed-application.png)
+
 [Link to depoyed application](https://dry-river-17496.herokuapp.com/)
 
 ![Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)
