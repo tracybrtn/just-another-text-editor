@@ -20,7 +20,11 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
-      })
+      }),
+      new InjectManifest({
+        swSrc: './sw.js',
+        swDest: 'service-worker.js',
+      }),
       
     ],
 
