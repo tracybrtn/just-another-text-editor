@@ -1,6 +1,2 @@
 /*Import app shell css*/
 @import './shell.css';
-
-/*Import codemirror stylesheets previously on index.js*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css');
